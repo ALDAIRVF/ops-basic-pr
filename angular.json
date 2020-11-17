@@ -125,6 +125,46 @@
           }
         }
       }
+    },
+    "ops-basic-pr": {
+      "projectType": "library",
+      "root": "projects/ops-basic-pr",
+      "sourceRoot": "projects/ops-basic-pr/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/ops-basic-pr/tsconfig.lib.json",
+            "project": "projects/ops-basic-pr/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ops-basic-pr/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ops-basic-pr/src/test.ts",
+            "tsConfig": "projects/ops-basic-pr/tsconfig.spec.json",
+            "karmaConfig": "projects/ops-basic-pr/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ops-basic-pr/tsconfig.lib.json",
+              "projects/ops-basic-pr/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "my-first-lib"

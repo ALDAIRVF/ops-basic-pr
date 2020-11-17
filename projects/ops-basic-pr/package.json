@@ -1,0 +1,17 @@
+{
+  "name": "ops-basic-pr",
+  "version": "0.0.2",
+  "description": "una libreria para probar el poder de angular",
+  "homepage": "https://github.com/ALDAIRVF/ops-basic-pr/blob/main/README.md",
+  "license": "MIT",
+  "author": { "name" : "Aldair Vargas"
+    , "email" : "avargasfa2013@gmail.com"
+    },
+  "peerDependencies": {
+    "@angular/common": "^11.0.0",
+    "@angular/core": "^11.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}
