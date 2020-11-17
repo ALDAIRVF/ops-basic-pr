@@ -1,0 +1,19 @@
+{
+  "name": "ops-basic-pr",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^11.0.0",
+    "@angular/core": "^11.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "main": "bundles/ops-basic-pr.umd.js",
+  "module": "fesm2015/ops-basic-pr.js",
+  "es2015": "fesm2015/ops-basic-pr.js",
+  "esm2015": "esm2015/ops-basic-pr.js",
+  "fesm2015": "fesm2015/ops-basic-pr.js",
+  "typings": "ops-basic-pr.d.ts",
+  "metadata": "ops-basic-pr.metadata.json",
+  "sideEffects": false
+}

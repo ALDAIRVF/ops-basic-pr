@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of ops-basic-pr
+ */
+export * from './lib/ops-basic-pr.service';
+export * from './lib/ops-basic-pr.component';
+export * from './lib/ops-basic-pr.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIuLi8uLi8uLi8uLi9wcm9qZWN0cy9vcHMtYmFzaWMtcHIvc3JjLyIsInNvdXJjZXMiOlsicHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUVILGNBQWMsNEJBQTRCLENBQUM7QUFDM0MsY0FBYyw4QkFBOEIsQ0FBQztBQUM3QyxjQUFjLDJCQUEyQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiBvcHMtYmFzaWMtcHJcbiAqL1xuXG5leHBvcnQgKiBmcm9tICcuL2xpYi9vcHMtYmFzaWMtcHIuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9vcHMtYmFzaWMtcHIuY29tcG9uZW50JztcbmV4cG9ydCAqIGZyb20gJy4vbGliL29wcy1iYXNpYy1wci5tb2R1bGUnO1xuIl19
